@@ -1,0 +1,10 @@
+openai:
+  apiKey:
+  gptModel: gpt-3.5-turbo
+  http-client:
+    readTimeout: 3000
+    connectTimeout: 3000
+  urls:
+    baseUrl: https://api.openai.com/v1
+    chatUrl: /chat/completions
+
